@@ -1,6 +1,6 @@
 @font-face {
   font-family: Road Rage;
-  src: url("Road_Rage.otf") format("opentype");
+  src: url("media/Road_Rage.otf") format("opentype");
 }
 
 * {
@@ -70,7 +70,7 @@ h1 {
 .text {
   /* Change this to 20px with h2 present */
   margin-top: -160px;
-  animation: glow .1s ease-in-out infinite alternate;
+  animation: glow .09s ease-in-out infinite alternate;
 }
 
 .socials {
@@ -93,30 +93,6 @@ h1 {
   transform: scale(1.2);
 }
 
-/* @keyframes glow {
-  from {
-    text-shadow:
-      0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 30px #e60073,
-      0 0 40px #e60073,
-      0 0 50px #e60073,
-      0 0 60px #e60073,
-      0 0 70px #e60073;
-  }
-
-  to {
-    text-shadow:
-      0 0 15px #fff,
-      0 0 25px #ff4da6,
-      0 0 35px #ff4da6,
-      0 0 45px #ff4da6,
-      0 0 55px #ff4da6,
-      0 0 65px #ff4da6,
-      0 0 75px #ff4da6;
-  }
-} */
-
 @keyframes glow {
   from {
     text-shadow:
@@ -133,8 +109,8 @@ h1 {
       0 0 6px rgba(202, 228, 225, 0.98),
       0 0 30px rgba(202, 228, 225, 0.42),
       0 0 12px rgba(30, 132, 242, 0.58),
-      0 0 22px rgba(30, 132, 242, 0.84),
-      0 0 38px rgba(30, 132, 242, 0.88),
-      0 0 60px rgba(30, 132, 242, 1);
+      0 0 23px rgba(30, 132, 242, 0.84),
+      0 0 39px rgba(30, 132, 242, 0.88),
+      0 0 62px rgba(30, 132, 242, 1);
   }
 }
