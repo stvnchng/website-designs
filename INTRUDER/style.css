@@ -17,8 +17,8 @@ body {
 }
 
 h1 {
-  font-size: 72px;
-  line-height: 1.2;
+  font-size: 80px;
+  line-height: 1.5;
 }
 
 .container {
@@ -27,7 +27,6 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 20px;
 }
 
 .vid {
@@ -61,16 +60,36 @@ h1 {
 }
 
 .content {
+  top: 40%;
   z-index: 5;
-  outline: none;
-  box-shadow: none;
-  border-color: inherit;
+
 }
 
 .text {
   /* Change this to 20px with h2 present */
-  margin-top: -160px;
+  top: 30%;
   animation: glow .09s ease-in-out infinite alternate;
+}
+
+/* Style buttons */
+.btn {
+  background-color: lightseagreen;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.buttons {
+  margin: 0 auto;
+  top: 70%;
 }
 
 .socials {
