@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Anja Eliane;
+  src: url("fonts/Anja\ Eliane.ttf");
+}
+
+@font-face {
+  font-family: Bulletproof;
+  src: url("fonts/bulletproof.bb.ttf");
+}
+
+@font-face {
+  font-family: Joystix;
+  src: url("fonts/joystix\ monospace.ttf");
+}
+
+@font-face {
+  font-family: Mister Pixel;
+  src: url("fonts/Mister\ Pixel\ Regular.otf");
+}
+
+@font-face {
+  font-family: Road Rage;
+  src: url("fonts/Road_Rage.otf");
+}
+
+.sentence {
+  display: block;
+  text-align: center; 
+  font-size: 3.5rem;
+}
+
+.a {
+  font-family: Anja Eliane;
+}
+
+.b {
+  font-family: Bulletproof;
+}
+
+.c {
+  font-family: Joystix;
+}
+
+.d {
+  font-family: Mister Pixel;
+}
+
+.e {
+  font-family: Road Rage;
+}
